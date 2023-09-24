@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Hepta+Slab:wght@500&family=Numans&family=Open+Sans:wght@300&family=PT+Sans&family=Quicksand:wght@600&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background: #4ECDC4;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #556270, #4ECDC4);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #556270, #4ECDC4);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: #fff;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0;
+    padding: 50px;
+    text-align: left;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 18px;
+    color: black;
+}
+
+.box1 {
+    width: 57vw;
+    height: 14vh;
+    background-color: rgba(240, 248, 255, 0.348);
+    overflow: hidden;
+    padding: 15px;
+    border-radius: 30px;
+    border: 3px solid yellow;
+}
+
+.box2 {
+    margin-top: 30px;
+    width: 57vw;
+    height: 21vh;
+    background-color: rgba(240, 248, 255, 0.348);
+    overflow: hidden;
+    padding: 15px;
+    border-radius: 30px;
+    border: 3px solid rgba(251, 0, 255, 0.508);
+}

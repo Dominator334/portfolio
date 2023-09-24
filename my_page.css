@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@500&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Hepta+Slab:wght@500&family=Open+Sans:wght@300&family=PT+Sans&family=Quicksand:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    font-family: 'Hepta Slab', serif;
+    background: rgb(188, 243, 136);
+    background: -moz-linear-gradient(158deg, rgba(188, 243, 136, 1) 34%, rgba(41, 246, 199, 1) 84%, rgba(64, 231, 168, 0.9915615904564951) 100%);
+    background: -webkit-linear-gradient(158deg, rgba(188, 243, 136, 1) 34%, rgba(41, 246, 199, 1) 84%, rgba(64, 231, 168, 0.9915615904564951) 100%);
+    background: linear-gradient(158deg, rgba(188, 243, 136, 1) 34%, rgba(41, 246, 199, 1) 84%, rgba(64, 231, 168, 0.9915615904564951) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#bcf388", endColorstr="#40e7a8", GradientType=1);
+    width: 100vw;
+    height: 100vh;
+}
+
+.infocontainer {
+    text-align: center;
+    padding: 20px;
+    margin: 160px;
+    border-radius: 20px;
+    width: 30vw;
+    height: 70vh;
+    background: #c0c0aa;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #1cefff, #c0c0aa);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #1cefff, #c0c0aa);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: absolute;
+    left: 22%;
+    top: -7%;
+    border: 4px solid black;
+    box-shadow: 11px 12px 37px;
+}
+
+.photo {
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    left: 66%;
+    top: -7%;
+    box-shadow: 7px 4px 17px;
+}
+
+.devinfo {
+    font-weight: bold;
+    position: absolute;
+    bottom: 55%;
+    text-align: left;
+}
+
+.photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.icon-box {
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    width: 100%;
+    background-color: transparent;
+    border-radius: 26px;
+    border: 3px solid black;
+    overflow: hidden;
+}
+
+.icons {
+    display: flex;
+    font-size: 35px;
+    position: absolute;
+    top: 82%;
+    left: 5%;
+}
+
+.icons i {
+    margin: 0 5px;
+    /* Add margin between icons for spacing */
+}
+
+
+.hi {
+    position: absolute;
+    font-size: 40px;
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+.mysocials {
+    position: absolute;
+    top: 75%;
+    left: 7%;
+}
+
+hr {
+    font-weight: 2px;
+    color: black;
+}
+
+#ul1 {
+    position: absolute;
+    left: 10%;
+    top: 116%;
+}
+
+.list-item {
+    margin-bottom: 10px;
+}
+
+.icons i {
+    margin: 0 5px;
+    /* Add margin between icons for spacing */
+    transition: transform 0.2s ease;
+}
+
+.icons i:hover {
+    animation: bounce 0.5s ease;
+}
+
+/* Define the bouncing animation */
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-5px);
+        /* Adjust the bounce height as needed */
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
